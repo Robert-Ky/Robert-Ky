@@ -1,0 +1,9 @@
+{
+  "name": "consciousness-mirror-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev":"tsx src/server.ts", "build":"tsc -p tsconfig.json", "typecheck":"tsc --noEmit"},
+  "dependencies": {"cors":"latest", "dotenv":"latest", "express":"latest", "jsonwebtoken":"latest", "mongoose":"latest", "tsx":"latest", "zod":"latest"},
+  "devDependencies": {"@types/cors":"latest", "@types/express":"latest", "@types/jsonwebtoken":"latest", "@types/node":"latest", "typescript":"latest"}
+}
