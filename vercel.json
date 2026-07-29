@@ -1,10 +1,1 @@
-{
-  "buildCommand": "npm run build",
-  "outputDirectory": "frontend/dist",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
+{\n  "buildCommand": "npm run build --workspace frontend",\n  "outputDirectory": "frontend/dist",\n  "rewrites": [\n    {\n      "source": "/(.*)",\n      "destination": "/index.html"\n    }\n  ]\n}\n
